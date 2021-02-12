@@ -4,8 +4,8 @@
 
 # Test to run this package on Console app -
 
-using MySql.Data.MySqlClient;
-using System;
+    using MySql.Data.MySqlClient;
+    using System;
 
     namespace ConsoleApp1
     {
