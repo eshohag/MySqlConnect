@@ -2,7 +2,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/67ubhtmijuhyhq6q?svg=true)](https://ci.appveyor.com/project/eshohag/MySqlConnect)
 [![NuGet Badge](https://buildstats.info/nuget/MySqlConnect)](https://www.nuget.org/packages/MySqlConnect)
 
-# Test to run this package on Console app -
+# Code Syntax for this packages-
 
     using MySql.Data.MySqlClient;
     using System;
