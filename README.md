@@ -7,17 +7,17 @@
 using MySql.Data.MySqlClient;
 using System;
 
-namespace ConsoleApp1
-{
-    class Program
+    namespace ConsoleApp1
     {
-        static void Main(string[] args)
+        class Program
         {
-            MySqlConnection connection = MySqlConnect.MySql.Connection("Your Server Name", "Your Database Name", "Your User ID", "Your Password");
+            static void Main(string[] args)
+            {
+                MySqlConnection connection = MySqlConnect.MySql.Connection("Your Server Name", "Your Database Name", "Your User ID", "Your Password");
 
-            //Do something your code here
+                //Do something your code here
 
-            Console.ReadKey();
+                Console.ReadKey();
+            }
         }
     }
-}
