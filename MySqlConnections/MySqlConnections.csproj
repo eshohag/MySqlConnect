@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>netstandard2.0</TargetFramework>
+	  <PackageId>MySqlConnect</PackageId>
+	  <Version>1.0.1</Version>
+
+	  <Description>It's the instead of mysql  database connector with our ASP.Net applications. Example: Console, Web Form, MVC5 applications etc.
+	  </Description>
+	  <Authors>eShohag</Authors>
+	  <Company></Company>
+	  <Product>AspNet</Product>
+	  <Copyright>©eShohag. All rights reserved.</Copyright>
+	  <PackageProjectUrl>https://github.com/eshohag/MySqlConnect</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/eshohag/MySqlConnect</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>mysql; database; connectionstring; mysqlconnect; dotNet; .net;</PackageTags>
+	  <PackageReleaseNotes>https://github.com/eshohag/MySqlConnect</PackageReleaseNotes>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <developmentDependency>true</developmentDependency>
+	  <PackageLicenseFile>LicenseInfo.txt</PackageLicenseFile>
+	  <PackageIcon>.NET.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="MySql.Data" Version="8.0.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Include="..\..\..\..\Downloads\LicenseInfo.txt">
+	  <Pack>True</Pack>
+	  <PackagePath></PackagePath>
+	</None>
+	<None Include="..\..\..\..\OneDrive\Pictures\.NET.png">
+	  <Pack>True</Pack>
+	  <PackagePath></PackagePath>
+	</None>
+  </ItemGroup>
+
+</Project>
