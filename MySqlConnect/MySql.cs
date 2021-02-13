@@ -9,6 +9,7 @@ namespace MySqlConnect
             string connectionString = "SERVER=" + serverName + ";" + "DATABASE=" + databaseName + ";" + "UID=" + userId + ";" + "PASSWORD=" + password + ";";
             MySqlConnection connection = new MySqlConnection(connectionString);
             return connection;
+
         }
     }
 }
