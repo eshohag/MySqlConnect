@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlConnections", "MySqlConnections\MySqlConnections.csproj", "{53C46D06-7549-4320-A0AD-B3DD90F613DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlConnect", "MySqlConnect\MySqlConnect.csproj", "{898ED048-D50A-4202-95BE-40884CAC6EE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{53C46D06-7549-4320-A0AD-B3DD90F613DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53C46D06-7549-4320-A0AD-B3DD90F613DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53C46D06-7549-4320-A0AD-B3DD90F613DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53C46D06-7549-4320-A0AD-B3DD90F613DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898ED048-D50A-4202-95BE-40884CAC6EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898ED048-D50A-4202-95BE-40884CAC6EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898ED048-D50A-4202-95BE-40884CAC6EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898ED048-D50A-4202-95BE-40884CAC6EE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

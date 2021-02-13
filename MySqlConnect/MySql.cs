@@ -1,8 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
 
-namespace MySqlConnections
+namespace MySqlConnect
 {
-    public abstract class MySql
+    public abstract class MySQL
     {
         public static MySqlConnection Connection(string serverName, string databaseName, string userId, string password)
         {
